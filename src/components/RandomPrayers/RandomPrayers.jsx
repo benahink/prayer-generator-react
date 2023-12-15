@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './RandomPrayers.css';
 import reload from '../assets/reload.png';
-import prayer from '../assets/prayer.png';
+import pray from '../assets/pray.png';
 
 function RandomPrayers() {
   const [prayer, setPrayer] = useState({
@@ -17,7 +17,7 @@ function RandomPrayers() {
           <div className="title">{prayer.title}</div>
           <div className="icons">
             <img src={reload} alt=""/>
-            <img src={prayer} alt=""/>
+            <img src={pray} alt=""/>
           </div>
         </div>
       </div>
