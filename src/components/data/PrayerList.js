@@ -1,5 +1,4 @@
-{
-  "prayerList": [
+const PrayerList = [
     {
       "id": "1",
   	 "title": "Dear [Higher Power]…", 
@@ -61,4 +60,4 @@
       "text": "…I surrender to you my past, present, and future problems. I ask You to take hold over every aspect of my life. I surrender to You all my hurt, pain, worry, doubt, fear, and anxiety, and I ask You to wash me clean. I release everything into Your compassionate care. Please speak to me clearly, [Lord]. Open my ears to hear Your voice. Open my heart to commune with You more deeply. I want to feel Your loving embrace. Open the doors that need to be opened and close the doors that need to be closed. Please set my feet upon the straight and narrow road that leads to everlasting life."
     }
   ]
-}
+export default PrayerList;
