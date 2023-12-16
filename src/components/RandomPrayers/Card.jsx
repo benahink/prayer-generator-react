@@ -4,8 +4,6 @@ import reload from '../assets/reload.png';
 import pray from '../assets/pray.png';
 
 function Card({ prayer }){
-
-	console.log(prayer)
   return(
   	<div className="container">
       <div className="prayer">"{prayer.text}"</div>
