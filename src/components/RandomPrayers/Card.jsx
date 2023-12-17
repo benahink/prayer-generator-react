@@ -3,7 +3,7 @@ import './RandomPrayers.css';
 import reload from '../assets/reload.png';
 import pray from '../assets/pray.png';
 
-function Card({ prayer }){
+function Card({ prayer, handleClick }){
   return(
   	<div className="container">
       <div className="prayer">"{prayer.text}"</div>
@@ -12,8 +12,8 @@ function Card({ prayer }){
         <div className="bottom">
           <div className="title">"{prayer.title}"</div>
           <div className="icons">
-            <img src={reload} alt=""/>
-            <img src={pray} alt=""/>
+            <img src={reload} onClick={handleClick} alt="reload button"/>
+            <img src={pray} alt="app logo"/>
           </div>
         </div>
       </div>
