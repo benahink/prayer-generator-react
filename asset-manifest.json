@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.741c7d54.css",
+    "main.js": "/react-gh-pages/static/js/main.f2e8bf73.js",
+    "static/media/pray.png": "/react-gh-pages/static/media/pray.8ffd3438f3a2b75c0d43.png",
+    "static/media/reload.png": "/react-gh-pages/static/media/reload.693aafb90d955ea5c134.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.741c7d54.css.map": "/react-gh-pages/static/css/main.741c7d54.css.map",
+    "main.f2e8bf73.js.map": "/react-gh-pages/static/js/main.f2e8bf73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.741c7d54.css",
+    "static/js/main.f2e8bf73.js"
+  ]
+}
